@@ -19,7 +19,7 @@ app.get('/node',(req,res)=>{
 
 //localhost:3000/explorers/monseeligo
 app.get('/explorers/:explorer',(req,res)=>{
-    console.log(req.params)
+    console.log(req.params) //{explorer:monseeligio}
     res.send(req.params)
 })
 
